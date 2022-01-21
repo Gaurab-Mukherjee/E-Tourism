@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303030"
+    tools:context=".activity_gallery">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_calender"
+        android:background="#212121"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:logo="@drawable/ic_arrow_back1"
+        />
+
+    <ImageButton
+        android:id="@+id/photogal"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/photoviewyo"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="40dp"
+        />
+
+    <ImageButton
+        android:id="@+id/camera"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/camerayoo"
+        android:layout_marginBottom="40dp"
+        />
+</RelativeLayout>

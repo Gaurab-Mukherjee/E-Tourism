@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1076063283612",
+    "firebase_url": "https://e-tourism-f6476.firebaseio.com",
+    "project_id": "e-tourism-f6476",
+    "storage_bucket": "e-tourism-f6476.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076063283612:android:b0cf897ef7e878a0540059",
+        "android_client_info": {
+          "package_name": "com.example.e_tourism"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076063283612-mthmrhgtqs32vtsi7rchvafsfr0emgms.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.e_tourism",
+            "certificate_hash": "5c58d8c28a30429885bf7ed666ffb0bf00745c64"
+          }
+        },
+        {
+          "client_id": "1076063283612-69appv9eebgm9gii3clicng9b9ai5bsr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDywg47npse8QHMCZWYHaC5Lsh5XGR1Q8Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076063283612-69appv9eebgm9gii3clicng9b9ai5bsr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

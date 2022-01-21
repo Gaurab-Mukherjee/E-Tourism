@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.e_tourism">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/west_bengal1"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/west_bengal1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".manjusa_hotel"></activity>
+        <activity android:name=".samrat_mursi" />
+        <activity android:name=".samriddhi_mursidabad" />
+        <activity android:name=".bd_coch" />
+        <activity android:name=".pal_coch" />
+        <activity android:name=".dooars_coch" />
+        <activity android:name=".akash_purulia" />
+        <activity android:name=".panchet_purulia" />
+        <activity android:name=".sangle_purulia" />
+        <activity android:name=".mandarmani_sonar" />
+        <activity android:name=".mandarmani_sana" />
+        <activity android:name=".mandarmani_sun_city" />
+        <activity android:name=".mirik_palace_hotel" />
+        <activity android:name=".mirik_chamong_hotel" />
+        <activity android:name=".mirik_allite" />
+        <activity android:name=".CreateNote" />
+        <activity android:name=".ListNote" />
+        <activity android:name=".About_us" />
+        <activity android:name=".digha_seagull_hotel" />
+        <activity android:name=".digha_rohini_hotel" />
+        <activity android:name=".digha_blue_hotel" />
+        <activity android:name=".MainActivity_gallery_of_phone" />
+        <activity android:name=".siliguri_central_hotel" />
+        <activity android:name=".siliguri_loft_hotel" />
+        <activity android:name=".siliguri_barsana_hotel" />
+        <activity android:name=".siliguri_marriote_hotel" />
+        <activity android:name=".kalimpong_summit_hotel" />
+        <activity android:name=".kalimpong_park_hotel" />
+        <activity android:name=".kalimpong_mayfair_hotel" />
+        <activity android:name=".sundarban_nook_hotel" />
+        <activity android:name=".sundarban_residency_hotel" />
+        <activity android:name=".sundarban_tigercamp_hotel" />
+        <activity android:name=".darjeeling_ramda_hotel" />
+        <activity android:name=".darjeeling_elgin_hotel" />
+        <activity android:name=".MainActivity_hotel_kalimpong_list" />
+        <activity android:name=".MainActivity_hotel_sundarbans_list" />
+        <activity android:name=".MainActivity_hotel_siliguri_list" />
+        <activity android:name=".MainActivity_hotel_digha_list" />
+        <activity android:name=".MainActivity_hotel_bagdogra_list" />
+        <activity android:name=".MainActivity_hotel_mandarmani" />
+        <activity android:name=".MainActivity_hotel_mirik" />
+        <activity android:name=".MainActivity_hotel_purulia" />
+        <activity android:name=".MainActivity_hotel_coch_beher" />
+        <activity android:name=".MainActivity_hotel_murshidabad" />
+        <activity android:name=".Http" />
+        <activity android:name=".murshidabad_activity" />
+        <activity android:name=".cooch_behar_acitivity" />
+        <activity android:name=".purulia_activity" />
+        <activity android:name=".mandarmani_acitivity" />
+        <activity android:name=".mirik_acitivity" />
+        <activity android:name=".Digha_activity" />
+        <activity android:name=".bagdogra_activity" />
+        <activity android:name=".siliguri_activity" />
+        <activity android:name=".kalimpong_acitivity" />
+        <activity android:name=".sundarbans_acitivity" />
+        <activity android:name=".nav_header" />
+        <activity android:name=".gallery_list" />
+        <activity android:name=".kolkata_pride_hotel" />
+        <activity android:name=".kolkata_park_hotel" />
+        <activity android:name=".kolkata_lalit_hotel" />
+        <activity android:name=".kolkata_hyatt_hotel" />
+        <activity android:name=".kolkata_Novotel_hotel" />
+        <activity android:name=".TextTranslationActivity" />
+        <activity android:name=".darjeeling_sterling_hotel" />
+        <activity android:name=".darjeeling_summit_hotel" />
+        <activity android:name=".kolkata_activity" />
+        <activity android:name=".booking_hotel_MainActivity" />
+        <activity android:name=".darjeeling_jain_hotel" />
+        <activity android:name=".MainActivity_hotel_dar_list" />
+        <activity android:name=".Darjeeling_activity" />
+        <activity android:name=".MapActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity
+            android:name=".home_MainActivity"
+            android:label="@string/title_activity_home__main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".welcome_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login" />
+        <activity android:name=".sign_up" />
+        <activity android:name=".activity_service" />
+        <activity android:name=".activity_calender" />
+        <activity android:name=".activity_gallery" />
+        <activity android:name=".TakePhoto" />
+        <activity android:name=".Helpline" />
+        <activity android:name=".activity_Note" />
+        <activity android:name=".MainActivity_hotel_kol_list" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

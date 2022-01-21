@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".TakePhoto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_take_photo"
+        android:background="#212121"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:logo="@drawable/ic_arrow_back1"
+        />
+
+            <ImageView
+                android:id="@+id/viewtakenphoto"
+                android:layout_width="400dp"
+                android:layout_height="450dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:layout_below="@+id/toolbar_take_photo"/>
+
+
+    <!-- <ImageView
+         android:layout_width="320dp"
+         android:layout_height="290dp"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="110dp"
+         android:background="@drawable/black" /> -->
+
+
+
+            <ImageButton
+                android:id="@+id/opencamera"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+               android:layout_below="@id/viewtakenphoto"
+                android:layout_centerInParent="true"
+                android:background="@drawable/leanse" />
+
+
+
+
+
+</RelativeLayout>

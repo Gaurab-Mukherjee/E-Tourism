@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bagdogra_activity"
+    android:background="#313131">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/toolbar_bagdogra"
+                android:background="#212121"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                android:logo="@drawable/ic_arrow_back1"
+                />
+
+
+            <com.smarteist.autoimageslider.SliderLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/img_bagdogra"
+                android:layout_below="@+id/toolbar_bagdogra">
+            </com.smarteist.autoimageslider.SliderLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_bagdogra"
+                android:layout_marginLeft="15dp"
+                android:backgroundTint="#CF0F0F"
+                android:text="Bagdogra"
+                android:textColor="#fff"
+                android:textSize="35dp" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="City in West Bengal"
+                android:layout_below="@id/textView2"
+                android:textSize="10dp"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView3"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginRight="15dp"
+                android:text="Bagdogra is a settlement in the Naxalbari CD block in the Siliguri subdivision of the Darjeeling district in the Indian state of West Bengal. Bagdogra is a part of the Greater Siliguri Metropolitan Area. Bagdogra is well connected by air from four major cities of India - Delhi, Mumbai, Kolkata and Chennai. Bagdogra has a railway station. Bagdogra Airport is now a Customs Airport."
+                android:textColor="#fff"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Things to do"
+                android:layout_below="@id/textView4"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Based on traveller visits and local insights
+"
+                android:layout_below="@id/textView5"
+                android:textSize="10dp"
+                android:textColor="#fff"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="15dp"/>
+
+
+            <HorizontalScrollView
+                android:id="@+id/hori_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView6">
+
+                <LinearLayout
+                    android:id="@+id/any.."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/Things_to_do_1_bagdogra"
+                        android:layout_width="250dp"
+                        android:layout_height="150dp"
+                        android:layout_below="@+id/textView6"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/bagdogra_place_1"
+                        android:paddingTop="85dp"
+                        android:text="Sree Ayyappa Temple"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="15sp" />
+
+                    <Button
+                        android:id="@+id/Things_to_do_2_bagdogra"
+                        android:layout_width="250dp"
+                        android:layout_height="150dp"
+                        android:layout_below="@+id/textView6"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/bagdogra_place_2"
+                        android:text="Jore Pokhri Wildlife Sanctuary"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:paddingTop="85dp"/>
+
+
+                    <Button
+                        android:id="@+id/Things_to_do_3_bagdogra"
+                        android:layout_width="250dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="15dp"
+
+                        android:background="@drawable/bagdogra_place_3"
+                        android:text="Dreamland Amusement Park"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:paddingTop="85dp"
+                        />
+
+                    <Button
+                        android:id="@+id/Things_to_do_4_bagdogra"
+                        android:layout_width="250dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="15dp"
+
+
+                        android:background="@drawable/bagdogra_place_4"
+                        android:layout_below="@+id/textView6"
+                        android:layout_toRightOf="@id/Things_to_do_3"
+                        android:text="North Bengal Science Center"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:paddingTop="85dp"
+                        />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plan a trip"
+                android:layout_below="@id/hori_1"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"/>
+
+
+
+
+            <Button
+                android:id="@+id/hotel_btn_bagdogra"
+                android:layout_width="270dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/textView8"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/drejeeling_btn"
+                android:shadowColor="#313131"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="1"
+                android:text="Hotels \n Rs.11,699 \n 7 Night at 5star hotel"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:paddingLeft="15dp"
+                android:layout_marginLeft="15dp"/>
+
+            <Button
+                android:id="@+id/plan_a_map_bagdogra"
+                android:layout_width="380dp"
+                android:layout_height="180dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/bagdogra_map"
+                android:layout_below="@+id/hotel_btn_bagdogra"
+
+                />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="When to visit"
+                android:layout_below="@id/plan_a_map_bagdogra"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="27 Aug – 3 Sep suggested for good value"
+                android:layout_below="@id/textView9"
+                android:textSize="12dp"
+                android:textColor="#fff"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

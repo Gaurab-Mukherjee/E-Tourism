@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#313131">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/toolbar_Note"
+                android:background="#212121"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                android:logo="@drawable/ic_arrow_back1"
+                />
+
+            <ImageButton
+                android:id="@+id/notecrate"
+                android:layout_width="260dp"
+                android:layout_height="260dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/createnoteeee"
+                android:layout_marginTop="150dp"
+                android:layout_marginBottom="40dp"
+                />
+
+            <ImageButton
+                android:id="@+id/noteread"
+                android:layout_width="260dp"
+                android:layout_height="260dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="460dp"
+                android:background="@drawable/readnoteeeeeeee"
+                android:layout_marginBottom="40dp"
+                />
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

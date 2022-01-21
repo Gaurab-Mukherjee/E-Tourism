@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/exlay1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/SOSname"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/SOSphone"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="220dp"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/call_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/call_100"
+        android:layout_marginStart="310dp"/>
+
+</RelativeLayout>

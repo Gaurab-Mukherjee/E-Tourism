@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".murshidabad_activity"
+    android:background="#313131">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/toolbar_murshidabad"
+                android:background="#212121"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                android:logo="@drawable/ic_arrow_back1"
+                />
+
+
+            <com.smarteist.autoimageslider.SliderLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/img_murshidabad"
+                android:layout_below="@+id/toolbar_murshidabad">
+            </com.smarteist.autoimageslider.SliderLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_murshidabad"
+                android:layout_marginLeft="15dp"
+                android:backgroundTint="#CF0F0F"
+                android:text="Murshidabad"
+                android:textColor="#fff"
+                android:textSize="35dp" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Town in West Bengal"
+                android:layout_below="@id/textView2"
+                android:textSize="10dp"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView3"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginRight="15dp"
+                android:text="Murshidabad is a town in the Indian state of West Bengal. It is located on the eastern bank of the Hooghly River, a distributary of the Ganges River. It forms part of the Murshidabad district. During the 18th-century, Murshidabad was a prosperous city. It was the capital of the Bengal Subah in the Mughal Empire for seventy years, with a jurisdiction covering modern-day Bangladesh and the Indian states of West Bengal, Bihar and Orissa. It was the seat of the hereditary Nawab of Bengal and the state's treasury, revenue office and judiciary. Bengal was the richest Mughal province. Murshidabad was a cosmopolitan city. Its population peaked at 700,000 in the 1750s. It was home to wealthy banking and merchant families from different parts of the Indian subcontinent and wider Eurasia, including the Jagat Seth and Armenians. European companies, including the British East India Company, the French East India Company, the Dutch East India Company and the Danish East India Company, conducted business and operated factories around the city. Silk was a major product of Murshidabad."
+                android:textColor="#fff"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Things to do"
+                android:layout_below="@id/textView4"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Based on traveller visits and local insights
+"
+                android:layout_below="@id/textView5"
+                android:textSize="10dp"
+                android:textColor="#fff"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="15dp"/>
+
+
+            <HorizontalScrollView
+                android:id="@+id/hori_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView6">
+
+                <LinearLayout
+                    android:id="@+id/any.."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/Things_to_do_1_murshidabad"
+                        android:layout_width="250dp"
+                        android:layout_height="150dp"
+                        android:layout_below="@+id/textView6"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/murshidabad_place_1"
+                        android:paddingTop="85dp"
+                        android:text="Hazarduari Palace"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="15sp" />
+
+                    <Button
+                        android:id="@+id/Things_to_do_2_murshidabad"
+                        android:layout_width="250dp"
+                        android:layout_height="150dp"
+                        android:layout_below="@+id/textView6"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/murshidabad_place_2"
+                        android:text="Nizamat Imambara"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:paddingTop="85dp"/>
+
+
+                    <Button
+                        android:id="@+id/Things_to_do_3_murshidabad"
+                        android:layout_width="250dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="15dp"
+
+                        android:background="@drawable/murshidabad_place_3"
+                        android:text="Katra Masjid"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:paddingTop="85dp"
+                        />
+
+                    <Button
+                        android:id="@+id/Things_to_do_4_murshidabad"
+                        android:layout_width="250dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="15dp"
+
+
+                        android:background="@drawable/murshidabad_place_4"
+                        android:layout_below="@+id/textView6"
+                        android:layout_toRightOf="@id/Things_to_do_3"
+                        android:text="Motijhil"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:paddingTop="85dp"
+                        />
+
+
+                    <Button
+                        android:id="@+id/Things_to_do_5_murshidabad"
+                        android:layout_width="250dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/murshidabad_place_5"
+                        android:layout_below="@+id/textView6"
+                        android:layout_toRightOf="@id/Things_to_do_3"
+                        android:text="Motijheel Park and Resorts Pvt. Ltd."
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:paddingTop="85dp"
+                        />
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plan a trip"
+                android:layout_below="@id/hori_1"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"/>
+
+
+
+
+            <Button
+                android:id="@+id/hotel_btn_murshidabad"
+                android:layout_width="270dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/textView8"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/drejeeling_btn"
+                android:shadowColor="#313131"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="1"
+                android:text="Hotels \n Rs.11,699 \n 7 Night at 5star hotel"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:paddingLeft="15dp"
+                android:layout_marginLeft="15dp"/>
+
+            <Button
+                android:id="@+id/plan_a_map_murshidabad"
+                android:layout_width="380dp"
+                android:layout_height="180dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/murshidabad_map"
+                android:layout_below="@+id/hotel_btn_murshidabad"
+
+                />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="When to visit"
+                android:layout_below="@id/plan_a_map_murshidabad"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="October to March are the best months to visit Murshidabad. Murshidabad experiences both summer and winter in all its glory. While summers get too hot and winters too cold, the early winter months, however, stay pleasant and hence serve the best time to visit."
+                android:layout_below="@id/textView9"
+                android:textSize="12dp"
+                android:textColor="#fff"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

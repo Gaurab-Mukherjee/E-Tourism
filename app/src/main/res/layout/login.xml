@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/on_bg">
+
+
+<TextView
+    android:id="@+id/toolbar_login"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5sp"
+    android:clickable="true"
+    android:drawableTint="#FFFFFF"
+    android:fontFamily="sans-serif-light"
+    android:text="Login"
+    android:textAlignment="center"
+    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+    android:textColor="#FFFFFF"
+    android:textSize="20sp"
+    android:textStyle="bold" />
+
+<com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/text1_login"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/toolbar_login"
+    android:layout_marginLeft="0dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginRight="0dp"
+    android:hint="@string/email_or_username"
+    android:padding="8dp"
+    android:textColorHint="#FFFFFF">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/text2_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:fontFamily="sans-serif-medium"
+        android:inputType="textWebEmailAddress"
+        android:padding="8dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF" />
+</com.google.android.material.textfield.TextInputLayout>
+
+<com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/text3_login"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/text1_login"
+    android:layout_marginLeft="0dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="0dp"
+    android:hint="Password"
+    android:padding="8dp"
+    android:textColorHint="#FFFFFF"
+    app:hintAnimationEnabled="true"
+    app:passwordToggleDrawable="@android:drawable/ic_menu_view"
+    app:passwordToggleEnabled="true">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/text4_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1_login"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:fontFamily="sans-serif-medium"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+</com.google.android.material.textfield.TextInputLayout>
+
+
+<Button
+    android:id="@+id/button_login"
+
+    android:layout_width="250dp"
+    android:layout_height="50dp"
+
+    android:layout_below="@+id/text3_login"
+    android:layout_alignStart="@+id/text3_login"
+    android:layout_alignEnd="@+id/text3_login"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="25dp"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/button_login_1"
+    android:clickable="true"
+    android:text="Continue"
+    android:textAllCaps="false"
+    android:textColor="#595959"
+    android:textSize="18sp"
+    />
+
+
+<Button
+    android:id="@+id/angry_btn_login"
+
+    android:layout_width="340dp"
+    android:layout_height="50dp"
+
+    android:layout_below="@+id/button_login"
+    android:layout_alignStart="@+id/button_login"
+    android:layout_alignEnd="@+id/button_login"
+    android:layout_marginTop="15dp"
+    android:background="@drawable/button_login"
+    android:clickable="true"
+    android:text="New to Bengal Tourism? Sign up"
+    android:textAllCaps="false"
+    android:textColor="#199135"
+    android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/forget_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/angry_btn_login"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Forgot Password?"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        />
+
+
+</RelativeLayout>

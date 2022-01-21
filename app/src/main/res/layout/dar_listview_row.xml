@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/image_1">
+    </ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Main Title"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:id="@+id/text_view_1">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Star Title"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="8sp"
+            android:id="@+id/text_view_2">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Review Title"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="8dp"
+            android:id="@+id/text_view_3">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sub Title"
+            android:textColor="#D3D3D3"
+            android:textStyle="bold"
+            android:textSize="10dp"
+            android:id="@+id/text_view_4">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rupee Title"
+            android:textColor="#D3D3D3"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/text_view_5">
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

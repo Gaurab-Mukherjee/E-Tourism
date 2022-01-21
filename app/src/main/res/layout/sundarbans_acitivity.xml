@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sundarbans_acitivity"
+    android:background="#313131">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/toolbar_sundarbans"
+                android:background="#212121"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                android:logo="@drawable/ic_arrow_back1"
+                />
+
+
+            <com.smarteist.autoimageslider.SliderLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/img_sundarnans"
+                android:layout_below="@+id/toolbar_sundarbans">
+            </com.smarteist.autoimageslider.SliderLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_sundarnans"
+                android:layout_marginLeft="15dp"
+                android:backgroundTint="#CF0F0F"
+                android:text="Sundarbans"
+                android:textColor="#fff"
+                android:textSize="35dp" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forest in Asia"
+                android:layout_below="@id/textView2"
+                android:textSize="10dp"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView3"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginRight="15dp"
+                android:text="One of the world's natural wonders, this massive forest is also a tiger and ecological preserve. The Sundarbans is a mangrove area in the delta formed by the confluence of the Ganges, Brahmaputra and Meghna Rivers in the Bay of Bengal. It spans from the Hooghly River in India's state of West Bengal to the Baleswar River in Bangladesh."
+                android:textColor="#fff"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Things to do"
+                android:layout_below="@id/textView4"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Based on traveller visits and local insights
+"
+                android:layout_below="@id/textView5"
+                android:textSize="10dp"
+                android:textColor="#fff"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="15dp"/>
+
+
+            <HorizontalScrollView
+                android:id="@+id/hori_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView6">
+
+                <LinearLayout
+                    android:id="@+id/any.."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/Things_to_do_1_sundarban"
+                        android:layout_width="250dp"
+                        android:layout_height="150dp"
+                        android:layout_below="@+id/textView6"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/download_1"
+                        android:paddingTop="85dp"
+                        android:text="Sundarban National Park"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="15sp" />
+
+                    <Button
+                        android:id="@+id/Things_to_do_2_sundarban"
+                        android:layout_width="250dp"
+                        android:layout_height="150dp"
+                        android:layout_below="@+id/textView6"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/download_2"
+                        android:text="Sajnekhali"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:paddingTop="85dp"/>
+
+
+                    <Button
+                        android:id="@+id/Things_to_do_3_sundarban"
+                        android:layout_width="250dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="15dp"
+
+                        android:background="@drawable/download_3"
+                        android:text="Hiron Point Bangladesh"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:paddingTop="85dp"
+                        />
+
+                    <Button
+                        android:id="@+id/Things_to_do_4_sundarban"
+                        android:layout_width="250dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="15dp"
+
+
+                        android:background="@drawable/download_4"
+                        android:layout_below="@+id/textView6"
+                        android:layout_toRightOf="@id/Things_to_do_3"
+                        android:text="নেতিধোপানি নজর ঘাঁটি"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:paddingTop="85dp"
+                        />
+
+
+                    <Button
+                        android:id="@+id/Things_to_do_5_sundarban"
+                        android:layout_width="250dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/download_5"
+                        android:layout_below="@+id/textView6"
+                        android:layout_toRightOf="@id/Things_to_do_3"
+                        android:text="Sudhanyakhali Watch"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:paddingTop="85dp"
+                        />
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plan a trip"
+                android:layout_below="@id/hori_1"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"/>
+
+
+
+
+            <Button
+                android:id="@+id/hotel_btn_sundarbans"
+                android:layout_width="270dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/textView8"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/drejeeling_btn"
+                android:shadowColor="#313131"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="1"
+                android:text="Hotels \n Rs.11,699 \n 7 Night at 5star hotel"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:paddingLeft="15dp"
+                android:layout_marginLeft="15dp"/>
+
+            <Button
+                android:id="@+id/plan_a_map_sundarbans"
+                android:layout_width="380dp"
+                android:layout_height="180dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/sundarbans_map"
+                android:layout_below="@+id/hotel_btn_sundarbans"
+
+                />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="When to visit"
+                android:layout_below="@id/plan_a_map_sundarbans"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Visiting Sundarbans During Summer (April to June):
+
+From April to June, the weather is extremely hot in the Sundarbans and the humidity is on top with the high temperature that ranges from 30 to 42 degrees Celsius. The hot weather is very uncomfortable for tourists, thus it is not an ideal time to visit Sundarbans.
+
+Visiting Sundarbans During Monsoon (July to September):
+
+From July to September, the monsoon season brings heavy rains in the Sundarbans making the water level reaches beyond the normal level which makes the boat safari a risky affair. Though the monsoon season brings much-needed relief for the wild flora and fauna after the summer this season is also not an ideal time to visit Sundarbans.
+
+Visiting Sundarbans During Winter (October to March):
+
+It is the best time to visit the Sundarbans due to the pleasant weather from October to March. Except for a few days of very cold weather, the entire duration of the above time interval is having a lovely weather with moderate temperature which ranges from 10 to 30 degrees Celsius. You will enjoy the flora and fauna of the Sundarbans and the beauty of the raw forest without any hassle."
+                android:layout_below="@id/textView9"
+                android:textSize="12dp"
+                android:textColor="#fff"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

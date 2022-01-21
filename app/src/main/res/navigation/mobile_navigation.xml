@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+
+
+    <activity
+        android:id="@+id/nav_gallery"
+        android:name="com.example.e_tourism.activity_gallery"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/activity_gallery" />
+
+    <activity
+        android:id="@+id/nav_calender"
+        android:name="com.example.e_tourism.activity_calender"
+        android:label="@string/menu_calender"
+        tools:layout="@layout/activity_calander" />
+
+    <activity
+        android:id="@+id/nav_note"
+        android:name="com.example.e_tourism.activity_Note"
+        android:label="@string/menu_note"
+        tools:layout="@layout/activity_note" />
+
+     <activity
+        android:id="@+id/nav_service"
+        android:name="com.example.e_tourism.activity_service"
+        android:label="@string/menu_service"
+        tools:layout="@layout/activity_service" />
+
+    <activity
+        android:id="@+id/nav_helpline"
+        android:name="com.example.e_tourism.Helpline"
+        android:label="@string/menu_helpline"
+        tools:layout="@layout/activity_helpline" />
+
+    <activity
+        android:id="@+id/nav_about_us"
+        android:name="com.example.e_tourism.About_us"
+        android:label="@string/menu_about_us"
+        tools:layout="@layout/activity_about_us" />
+
+
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.e_tourism.fragment_home"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+        <activity
+        android:id="@+id/navigation_map"
+        android:name="com.example.e_tourism.MapActivity"
+        android:label="Map"
+        tools:layout="@layout/content_map" />
+
+    <fragment
+        android:id="@+id/navigation_cab"
+        android:name="com.example.e_tourism.fragment_cab"
+        android:label="Cab Service"
+        tools:layout="@layout/fragment_cab" />
+    <fragment
+        android:id="@+id/navigation_Hotel"
+        android:name="com.example.e_tourism.hotel_fragment"
+        android:label="Hotel"
+        tools:layout="@layout/fragment_hotel" />
+</navigation>

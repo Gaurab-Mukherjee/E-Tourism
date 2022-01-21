@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/baseline_insert_photo_white_24dp"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_calender"
+            android:icon="@drawable/baseline_event_white_24dp"
+            android:title="Calender" />
+        <item
+            android:id="@+id/nav_note"
+            android:icon="@drawable/baseline_note_white_24dp"
+            android:title="Note" />
+
+        <item
+            android:id="@+id/nav_service"
+            android:icon="@drawable/baseline_business_center_white_24dp"
+            android:title="Service Catalogue" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_helpline"
+                android:icon="@drawable/helpline"
+                android:title="Helpline" />
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/smile"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>

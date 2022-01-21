@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#313131"
+    tools:context=".booking_hotel_MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_darjeeling_jain_hotel"
+        android:background="#212121"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:logo="@drawable/ic_arrow_back1" />
+
+
+    <TextView
+        android:id="@+id/txt_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_darjeeling_jain_hotel"
+        android:text="Personal Details"
+        android:textSize="12sp"
+        android:textColor="#FFFFFFFF"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        />
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/outlinedTextField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_below="@+id/txt_txt"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="5dp"
+        android:id="@+id/outlinedTextField1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_below="@+id/outlinedTextField"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_name1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="5dp"
+        android:id="@+id/outlinedTextField2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Residential Address"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_below="@+id/outlinedTextField1"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_name2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="5dp"
+        android:id="@+id/outlinedTextField3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date Of Birth"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_below="@+id/outlinedTextField2"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_name3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/txt_txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/outlinedTextField3"
+        android:text="Hotel Details"
+        android:textSize="12sp"
+        android:textColor="#FFFFFFFF"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        />
+
+
+    <Spinner
+        android:id="@+id/select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_txt1"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#FFFFFF"
+        android:entries="@array/Spinner_items"
+        android:outlineSpotShadowColor="#FFFFFF"
+        android:spinnerMode="dropdown" />
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginTop="5dp"
+                android:id="@+id/check_in"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="Check In"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_below="@+id/select"
+                android:layout_marginLeft="5dp"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txt_checkin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginTop="5dp"
+                android:id="@+id/check_out"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="Check Out"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_below="@+id/select"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txt_checkout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/txt_txt_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/check_in"
+                android:text="*Bill should be paid in the time of check out."
+                android:textSize="18sp"
+                android:textColor="#FFFFFFFF"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                />
+
+            <Button
+                android:id="@+id/angry_booking"
+
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/txt_txt_txt"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+
+
+                android:background="@drawable/buttonshape_hotel"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="Continue"
+                android:textAllCaps="false"
+                android:textColor="#FFD9D9"
+                android:textSize="30sp"
+                android:layout_marginBottom="10dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

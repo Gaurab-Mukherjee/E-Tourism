@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".darjeeling_elgin_hotel"
+    android:background="#313131">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_toolbar_about_us"
+        android:background="#212121"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:logo="@drawable/ic_arrow_back1"
+        />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_below="@id/toolbar_toolbar_about_us"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/eiem" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_below="@id/imageView6"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Project Mentor: Sourav Nag\n\nThank you: We are so lucky to get to work with someone who inspires us everyday. Thank you for your guidance. "
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:Gaurab Mukherjee\nCollage: EIEM\nposition: Project Leader\n Responsibility: 1.Lead Designer\n2.Lead Programmer\n3. Data Analyst\n4.Resource Collector\n5.Content Writter. "
+        />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".darjeeling_jain_hotel"
+    android:background="#313131">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_darjeeling_jain_hotel"
+        android:background="#212121"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:logo="@drawable/ic_arrow_back1"
+        />
+    <com.smarteist.autoimageslider.SliderLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/img_jain_hotel"
+        android:layout_below="@+id/toolbar_darjeeling_jain_hotel">
+    </com.smarteist.autoimageslider.SliderLayout>
+    <TextView
+        android:id="@+id/text_1.1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_jain_hotel"
+        android:paddingTop="20dp"
+        android:text="Jain Group Sanderling Resort and Spa"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginLeft="15dp"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_1.2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_1.1"
+        android:text="4-star hotel"
+        android:textSize="15sp"
+        android:textColor="#fff"
+        android:layout_marginLeft="15dp"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_1.3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_1.2"
+        android:text="Mall Rd, opposite Gym Khana Club, The, Chauk Bazaar, Darjeeling, West Bengal 734101•06295 685 223"
+        android:textSize="15sp"
+        android:textColor="#fff"
+        android:layout_marginLeft="15dp"
+        >
+    </TextView>
+
+                <Button
+                    android:id="@+id/web_site_btn"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/text_1.3"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/jain_dar_btn1"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="Website"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/booking_btn"
+
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/text_1.3"
+
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/dar_book_btn"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="Book a room"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp" />
+
+    <TextView
+    android:id="@+id/text_1.4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/booking_btn"
+    android:paddingTop="20dp"
+    android:text="Prices"
+    android:textSize="25sp"
+    android:textStyle="bold"
+    android:textColor="#fff"
+    android:layout_marginLeft="15dp"
+    />
+
+     <ImageView
+         android:layout_width="150dp"
+         android:layout_height="100dp"
+         android:id="@+id/room_1"
+         android:layout_below="@+id/text_1.4"
+         android:layout_marginLeft="15dp"
+         android:layout_marginTop="5dp"
+         android:src="@drawable/deluxeroom_1"
+         android:layout_marginRight="15dp"/>
+
+                <TextView
+                    android:id="@+id/txt1.1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/room_1"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="2dp"
+                    android:text="\n 24-hour Room Service\n Electric Kettle\n Bathroom \n Shower Cap \n Bed Type: King Bed
+\n Free Wi-Fi \n Housekeeping\n Shower\n Ideal for 2 Adults and 0 Child"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_1.4"
+                    android:layout_marginTop="15dp"
+                    android:text="Deluxe Room"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="180dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_1.4"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="42dp"
+                    android:text="Room Size : 250 sq. ft."
+                    android:textColor="#fff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_1.4"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="63dp"
+                    android:text="₹ 2,794 Per Night"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/room_2"
+                    android:layout_below="@+id/txt1.1"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/family_room"
+                    android:layout_marginRight="15dp"/>
+
+                <TextView
+                    android:id="@+id/txt1.2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/room_2"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="2dp"
+                    android:text="\n 24-hour Room Service\n Electric Kettle\n Bathroom \n Shower Cap \n Bed Type: King Bed
+\n Free Wi-Fi \n Housekeeping\n Shower\n Ideal for 2 Adults and 2 Child"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_1.4"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="235dp"
+                    android:text="Family Room"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_1.4"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="261dp"
+                    android:text="Room Size : 350 sq. ft."
+                    android:textColor="#fff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_1.4"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="281dp"
+                    android:text="₹ 4,242 Per Night"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/room_3"
+                    android:layout_below="@+id/txt1.2"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/premium_triple_room"
+                    android:layout_marginRight="15dp"/>
+
+                <TextView
+                    android:id="@+id/txt1.3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/room_3"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="2dp"
+                    android:text="\n 24-hour Room Service\n Electric Kettle\n Bathroom \n Shower Cap \n Bed Type: King Bed
+\n Free Wi-Fi \n Housekeeping\n Shower\n Ideal for 4 Adults and 2 Child for bigger family"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_1.4"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="467dp"
+                    android:text="Premium Triple \nRoom"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_1.4"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="520dp"
+                    android:text="Room Size : 1594.56 sq. ft."
+                    android:textColor="#fff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_1.4"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="536dp"
+                    android:text="₹ 5,098 Per Night"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_1.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt1.3"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="21dp"
+                    android:paddingTop="20dp"
+                    android:text="About this hotel"
+                    android:textColor="#fff"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+                <TextView
+        android:id="@+id/text_1.6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="An 8-minute walk from the Ghoom Monastery, this upscale, hilltop hotel is 1 km from Ghoom Railway Station and 9 km from Padmaja Naidu Himalayan Zoological Park.
+Contemporary rooms feature free Wi-Fi, flat-screen TVs, minibars, and tea and coffeemaking facilities. Upgraded suites and apartments add separate sitting areas and balconies; some have 2nd floors.
+
+Freebies include breakfast and parking. Additional amenities consist of a restaurant a convenience store and a children's play area.
+\n\n\n
+Check-in time: 12:00 PM\n
+Check-out time: 10:00 AM"
+        android:layout_below="@id/text_1.5"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+                <TextView
+                    android:id="@+id/text_1.7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_1.6"
+                    android:paddingTop="20dp"
+                    android:text="Address and contact information"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:layout_marginLeft="15dp"
+                    />
+                <TextView
+                    android:id="@+id/text_1.8"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_1.7"
+                    android:text="Address- Monastery Road, Ghoom, West Bengal 734102"
+                    android:textSize="15sp"
+                    android:textColor="#fff"
+                    android:layout_marginLeft="15dp"
+                    />
+
+                <TextView
+                    android:id="@+id/text_1.9"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_1.8"
+                    android:text="Phone No.- 0354 227 4044"
+                    android:textSize="15sp"
+                    android:textColor="#fff"
+                    android:layout_marginLeft="15dp"
+                    />
+
+                <TextView
+                    android:id="@+id/text_1.10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_1.9"
+                    android:paddingTop="20dp"
+                    android:text="Amenities"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:layout_marginLeft="15dp"
+                    />
+                <TextView
+                    android:id="@+id/text_1.11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_1.10"
+                    android:paddingTop="20dp"
+                    android:text="Popular amenities"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#D3D3D3"
+                    android:layout_marginLeft="15dp"
+                    />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/text_1.11"
+                    android:src="@drawable/spa_hotel"
+                    android:layout_marginBottom="20dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/img_spa"
+                    >
+                </ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Spa"
+                    android:textSize="20sp"
+                    android:textColor="#D3D3D3"
+                    android:id="@+id/text_1.12"
+                    android:layout_below="@+id/text_1.11"
+                   android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    >
+
+                </TextView>
+
+
+                <ImageView
+                    android:id="@+id/img_parking"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/text_1.11"
+                    android:layout_alignLeft="@+id/text_1.12"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="140dp"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/parking_hotel">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/text_1.13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_1.11"
+                    android:layout_alignEnd="@+id/img_parking"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="-120dp"
+                    android:text="Parking free"
+                    android:textColor="#D3D3D3"
+                    android:textSize="20sp">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/img_parking"
+                    android:src="@drawable/breakfast_hotel"
+                    android:layout_marginBottom="20dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/img_breakfast"
+                    >
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/text_1.14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_1.13"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Breakfast   free"
+                    android:textColor="#D3D3D3"
+                    android:textSize="20sp">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/img_internet"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/img_breakfast"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/wifi">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/text_1.15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_1.14"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Internet"
+                    android:textColor="#D3D3D3"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/img_tick"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/img_internet"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/tick">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/text_1.16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_1.15"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Wi-Fi free"
+                    android:textColor="#D3D3D3"
+                    android:textSize="20sp">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/img_service"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/img_tick"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/service">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/text_1.17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_1.16"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Services"
+                    android:textColor="#D3D3D3"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/img_tick1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/img_service"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/tick">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/text_1.18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_1.17"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Full service laundry"
+                    android:textColor="#D3D3D3"
+                    android:textSize="20sp">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/img_pool"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/img_tick1"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/pools">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/text_1.19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_1.17"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="85dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Pools"
+                    android:textColor="#D3D3D3"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_no2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/img_pool"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/no">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/text_1.20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_1.19"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="No hot tub"
+                    android:textColor="#D3D3D3"
+                    android:textSize="20sp">
+                </TextView>
+
+
+                <ImageView
+                    android:id="@+id/img_wellness"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/img_no2"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/wellness">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/text_1.21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_1.20"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Wellness"
+                    android:textColor="#D3D3D3"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_tick2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/img_wellness"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/tick">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/text_1.22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_1.21"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Fitness center"
+                    android:textColor="#D3D3D3"
+                    android:textSize="20sp">
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/img_tick3"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/img_tick2"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/tick">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/text_1.23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_1.22"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Spa"
+                    android:textColor="#D3D3D3"
+                    android:textSize="20sp">
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/img_food"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/img_tick2"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="86dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/food">
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/text_1.24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_1.23"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Food and drink"
+                    android:textColor="#D3D3D3"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <ImageView
+                    android:id="@+id/img_tick4"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/img_food"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/tick">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/text_1.25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_1.24"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Restaurant"
+                    android:textColor="#D3D3D3"
+                    android:textSize="20sp">
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/img_tick5"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/img_tick4"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/tick">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/text_1.26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_1.25"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Room service"
+                    android:textColor="#D3D3D3"
+                    android:textSize="20sp">
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/img_tick6"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/img_tick5"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/tick">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/text_1.27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_1.26"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Breakfast free"
+                    android:textColor="#D3D3D3"
+                    android:textSize="20sp">
+                </TextView>
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+</RelativeLayout>

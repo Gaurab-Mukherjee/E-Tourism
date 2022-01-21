@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_service"
+    android:background="#303030">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/toolbar_service"
+                android:background="#212121"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                android:logo="@drawable/ic_arrow_back1"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="@drawable/whitefreamcruve"
+                android:text="Our Services"
+                android:textAlignment="center"
+                android:textColor="#502A2A"
+                android:textSize="40sp"
+                android:layout_below="@+id/toolbar_service">
+
+            </TextView>
+
+
+            <ImageButton
+                android:id="@+id/g_map"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="30dp"
+                android:src="@drawable/google_maps_service"
+                android:layout_marginTop="150dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/whitefreamcruve"
+                />
+
+            <ImageButton
+                android:id="@+id/flight_ticket"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="350dp"
+                android:src="@drawable/airplane_ticket"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/whitefreamcruve"
+                />
+
+            <ImageButton
+                android:id="@+id/train_ticket"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="150dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/train_ticket"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/whitefreamcruve"/>
+
+
+            <ImageButton
+                android:id="@+id/food_oder"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="350dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/food_oder"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/whitefreamcruve"/>
+
+            <ImageButton
+                android:id="@+id/hospital"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="550dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/hospital_service"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/whitefreamcruve"/>
+
+
+            <ImageButton
+                android:id="@+id/online_pay"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="550dp"
+                android:src="@drawable/online_payment"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/whitefreamcruve"
+                />
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
